@@ -1,0 +1,22 @@
+{
+  "name": "bot-bizybuysell",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "ship": "git add .&&git commit -m 'update'&&git push"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.26.0",
+    "p-limit": "^2.3.0",
+    "puppeteer": "^2.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-google": "^0.12.0"
+  }
+}
