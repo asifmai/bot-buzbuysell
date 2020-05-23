@@ -222,9 +222,7 @@ module.exports.getAttr = (selector, attribute, page) => new Promise(async (resol
         (elm, attribute) => elm.getAttribute(attribute).trim(),
         attribute
       );
-    } else {
-      console.log(`Node not found`);
-    };
+    }
 
     resolve(attr);
   } catch (error) {
